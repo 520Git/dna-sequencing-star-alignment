@@ -1,0 +1,15 @@
+5
+>SEQ_1
+aagtctaatttgctc
+
+>SEQ_2
+atgtgtaatacgctatctcat
+
+>SEQ_3
+atgtctgattga
+
+>SEQ_4
+agctgtaacatgcatcgat
+
+>SEQ_5
+atgtgtgattcgat
