@@ -1,0 +1,5 @@
+SEQ_4: atct**tc**tt
+SEQ_1: at*tg*cca*tt
+SEQ_2: atgg**cca*tt
+SEQ_3: atccaatt**tt
+SEQ_5: at*tg*ccgatt
