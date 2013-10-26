@@ -28,27 +28,35 @@ Files
 -----
 
 **Alignment.h**
+
 Class Alignment holds data for two DNA sequences.
 
 **AlignmentTool.h**
+
 The class AlignmentTool is used to align two individual sequences.
 
 **DynamicSafe2DArray**
+
 Templatized wrapper class for 2D arrays.
 
 **DynamicSafeArray**
+
 Tempatized wrapper class for arrays.
 
 **List.h**
+
 Linked list.
 
 **MSATool.cpp**
+
 Main program that reads sequences from input file, uses AlignmentTool and StarAlignment to align them and writes output to the provided output file.
 
 **scoringScheme.txt**
+
 Contains data used by the AlignmentTool class for scoring. Can be edited for different scoring method.
 
 **sequence.h**
+
 The class Sequence is used to hold a single DNA sequence.
 
 **StarAlignmentTool.h**
