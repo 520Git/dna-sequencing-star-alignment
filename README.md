@@ -13,7 +13,7 @@ This is what these two sequences look like when aligned:
     SEQUENCE 1: aagtctaat***ttg*ctc**
     SEQUENCE 2: atgtgtaatacgctatctcat
 
-Optimally aligning two sequences of length n is an O(n^2) (see Needleman-Wunsch algorithm: http://en.wikipedia.org/wiki/Needleman-wunsch_algorithm). Optimally aligning k sequences using the same algorithm has exponential complexity. For k sequences, star alignment method provides a more efficient heuristic method of aligning sequences. The algorithm is described here: http://www.biostat.wisc.edu/bmi576/lectures/multiple-alignment.pdf
+Optimally aligning two sequences of length n has a time complexity of O(n^2) (see Needleman-Wunsch algorithm: http://en.wikipedia.org/wiki/Needleman-wunsch_algorithm). Optimally aligning k sequences using the same algorithm has exponential complexity. For k sequences, star alignment method provides a more efficient heuristic method of aligning sequences. The algorithm is described here: http://www.biostat.wisc.edu/bmi576/lectures/multiple-alignment.pdf
 
 I developed this project as part of my course in data structures taken in Fall 2007.
 
