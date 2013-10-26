@@ -29,11 +29,11 @@ Files
 
 **Alignment.h**
 
-Class Alignment holds data for two DNA sequences.
+>Class Alignment holds data for two DNA sequences.
 
 **AlignmentTool.h**
 
-The class AlignmentTool is used to align two individual sequences.
+>The class AlignmentTool is used to align two individual sequences.
 
 **DynamicSafe2DArray**
 
