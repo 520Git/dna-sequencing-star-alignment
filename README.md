@@ -27,40 +27,22 @@ The program can be run from the command line. Input and output files have to be 
 Files
 -----
 
-**Alignment.h**
+**Alignment.h** - Class Alignment holds data for two DNA sequences.
 
->Class Alignment holds data for two DNA sequences.
+**AlignmentTool.h** - The class AlignmentTool is used to align two individual sequences.
 
-**AlignmentTool.h**
+**DynamicSafe2DArray** - Templatized wrapper class for 2D arrays.
 
->The class AlignmentTool is used to align two individual sequences.
+**DynamicSafeArray** - Tempatized wrapper class for arrays.
 
-**DynamicSafe2DArray**
+**List.h** - Linked list.
 
-Templatized wrapper class for 2D arrays.
+**MSATool.cpp** - Main program that reads sequences from input file, uses AlignmentTool and StarAlignment to align them and writes output to the provided output file.
 
-**DynamicSafeArray**
+**scoringScheme.txt** - Contains data used by the AlignmentTool class for scoring. Can be edited for different scoring method.
 
-Tempatized wrapper class for arrays.
+**sequence.h** - The class Sequence is used to hold a single DNA sequence.
 
-**List.h**
+**StarAlignmentTool.h** - The class StarAlignmentTool aligns multiple sequences taking individual alignments as input using the star alignment method.
 
-Linked list.
-
-**MSATool.cpp**
-
-Main program that reads sequences from input file, uses AlignmentTool and StarAlignment to align them and writes output to the provided output file.
-
-**scoringScheme.txt**
-
-Contains data used by the AlignmentTool class for scoring. Can be edited for different scoring method.
-
-**sequence.h**
-
-The class Sequence is used to hold a single DNA sequence.
-
-**StarAlignmentTool.h**
-The class StarAlignmentTool aligns multiple sequences taking individual alignments as input using the star alignment method.
-
-**Validator.h**
-The class Validator is used to validate the input file before beginning alignment.
+**Validator.h** - The class Validator is used to validate the input file before beginning alignment.
